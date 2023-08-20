@@ -10,20 +10,30 @@
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
         <img
-          src="img\ร้านนี้ตั้งเพื่อตอบสนองความอยากได้.png"
+          src="img\sl1.png"
           style="width: 2000px; height: 500px; object-fit: cover"
         />
-        <div class="text">Caption Text</div>
+       
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
         <img
-          src="img\ร้านนี้ตั้งเพื่อตอบสนองความอยากได้.png"
+          src="img\sl2.png"
           style="width: 2000px; height: 500px; object-fit: cover"
         />
-        <div class="text">Caption Two</div>
+      
       </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img
+          src="img\sl3.png"   
+          style="width: 2000px; height: 500px; object-fit: cover"
+        />
+      
+      </div>
+
 
       <a class="prev" onclick="plusSlides(-1)">❮</a>
       <a class="next" onclick="plusSlides(1)">❯</a>
@@ -36,7 +46,7 @@
       <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 
-    <div class="grid grid-cols-4 gap-20 overflow-y-scroll">
+    <div class="grid grid-cols-4 gap-20 overflow-y-scroll" id="productshow">
       <div>
         <div
           class="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md"
@@ -65,17 +75,28 @@
             <p
               class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75"
             >
-              With plenty of talk and listen time, voice-activated Siri access,
-              and an available wireless charging case.
+            AirPods
+            ฟังได้นานสูงสุด 5 ชั่วโมงต่อการชาร์จหนึ่งครั้ง2
+            สนทนาได้นานสูงสุด 3 ชั่วโมงต่อการชาร์จหนึ่งครั้ง3
+            AirPods พร้อมเคสชาร์จ Lightning
+            ฟังได้นานกว่า 24 ชั่วโมง4
+            สนทนาได้นานสูงสุด 18 ชั่วโมง5
+            เพียงใส่ในเคส 15 นาที ก็ใช้ฟังได้นานสูงสุด 3 ชั่วโมง6
+            หรือสนทนาได้นานสูงสุด 2 ชั่วโมง7
             </p>
           </div>
-          <div class="p-6 pt-0">
-            <button
-              class="block w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button"
-            >
-              Add to Cart
-            </button>
+           <div class="p-6 pt-0">
+            <div class="addcart">
+              <div class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                <div class="buttcon">
+                  <button id="minusBtn1">-</button>
+                  <span id="numberDisplay1">0</span>
+                  <button id="plusBtn1">+</button>
+                </div>
+
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -108,17 +129,27 @@
             <p
               class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75"
             >
-              With plenty of talk and listen time, voice-activated Siri access,
-              and an available wireless charging case.
+            AirPods
+            ฟังได้นานสูงสุด 6 ชั่วโมงต่อการชาร์จหนึ่งครั้ง (สูงสุด 5 ชั่วโมงเมื่อเปิดใช้งานระบบเสียงตามตำแหน่งสำหรับคุณ)
+            สนทนาได้นานสูงสุด 4 ชั่วโมงต่อการชาร์จหนึ่งครั้ง
+            AirPods พร้อมเคสชาร์จ Lightning หรือเคสชาร์จ MagSafe
+            ฟังได้นานสูงสุด 30 ชั่วโมง
+            สนทนาได้นานสูงสุด 20 ชั่วโมง
+            เพียงใส่ในเคส 5 นาที ก็ใช้ฟังได้นานประมาณ 1 ชั่วโมง หรือสนทนาได้นานประมาณ 1 ชั่วโมง
             </p>
           </div>
           <div class="p-6 pt-0">
-            <button
-              class="block w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button"
-            >
-              Add to Cart
-            </button>
+            <div class="addcart">
+              <div class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                <div class="buttcon">
+                  <button id="minusBtn2">-</button>
+                  <span id="numberDisplay2">0</span>
+                  <button id="plusBtn2">+</button>
+                </div>
+
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -151,17 +182,28 @@
             <p
               class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75"
             >
-              With plenty of talk and listen time, voice-activated Siri access,
-              and an available wireless charging case.
+            AirPods Pro
+            ฟังได้นานสูงสุด 6 ชั่วโมงต่อการชาร์จหนึ่งครั้ง (สูงสุด 5.5 ชั่วโมงเมื่อเปิดใช้งานระบบเสียงตามตำแหน่งและการติดตามศีรษะ)4
+            สนทนาได้นานสูงสุด 4.5 ชั่วโมงต่อการชาร์จหนึ่งครั้ง5
+            AirPods Pro พร้อมเคสชาร์จ MagSafe
+            ฟังได้นานสูงสุด 30 ชั่วโมง6
+            สนทนาได้นานสูงสุด 24 ชั่วโมง7
+            เพียงใส่ในเคส 5 นาที ก็ใช้ฟังได้นานประมาณ 1 ชั่วโมง8
+            หรือสนทนาได้นานประมาณ 1 ชั่วโมง9
             </p>
           </div>
           <div class="p-6 pt-0">
-            <button
-              class="block w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button"
-            >
-              Add to Cart
-            </button>
+            <div class="addcart">
+              <div class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                <div class="buttcon">
+                  <button id="minusBtn3">-</button>
+                  <span id="numberDisplay3">0</span>
+                  <button id="plusBtn3">+</button>
+                </div>
+
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -194,63 +236,69 @@
             <p
               class="block font-sans text-sm font-normal leading-normal text-gray-700 antialiased opacity-75"
             >
-              With plenty of talk and listen time, voice-activated Siri access,
-              and an available wireless charging case.
+            AirPods Max
+
+            ฟังได้นานสูงสุด 20 ชั่วโมงต่อการชาร์จหนึ่งครั้งเมื่อเปิดใช้งานการตัดเสียงรบกวนแบบแอ็คทีฟหรือ
+            โหมดฟังเสียงภายนอก3
+            เล่นภาพยนตร์ได้นานสูงสุด 20 ชั่วโมงต่อการชาร์จหนึ่งครั้งเมื่อเปิดใช้งานระบบเสียงตามตำแหน่ง4
+            สนทนาได้นานสูงสุด 20 ชั่วโมงต่อการชาร์จหนึ่งครั้ง5
+            ชาร์จเพียง 5 นาที สามารถใช้ฟังได้นานประมาณ 1.5 ชั่วโมง6
+            AirPods Max พร้อม Smart Case
+            
+           
             </p>
           </div>
           <div class="p-6 pt-0">
-            <button
-              class="block w-full select-none rounded-lg bg-blue-gray-900/10 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-blue-gray-900 transition-all hover:scale-105 focus:scale-105 focus:opacity-[0.85] active:scale-100 active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
-              type="button"
-            >
-              Add to Cart
-            </button>
+            <div class="addcart">
+              <div class="block font-sans text-base font-medium leading-relaxed text-blue-gray-900 antialiased">
+                <div class="buttcon">
+                  <button id="minusBtn4">-</button>
+                  <span id="numberDisplay4">0</span>
+                  <button id="plusBtn4">+</button>
+                </div>
+
+
+              </div>
+            </div>
           </div>
         </div>
       </div>    
       
     </div>
 
-    <div class="flex justify-between px-20">
-        <div>
-            asdsadsadsa
+
+    
+
+      <button id="openModalBtn">
+        <footer>
+          <div class="footdataconbig">
+            <div class="footdatacon">
+              <div class="footdata">
+                Your Cart here
+                <img src="img\Shopping-Cart-PNG-Photo-Image.png" alt="">
+              </div>
+            </div>
         </div>
-        <div>
-            asdsadsadsa
+       </footer>
+      </button>
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Your Order</h2><br>
+          <div id="productList"></div><br>
+          <div class="subp">
+          <div id="subtotal"></div>
+          <div id="discount"></div><br>
+         </div>
+          <div id="total"></div>
         </div>
-    </div>
+      </div>
 
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
+   
 
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
 
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
